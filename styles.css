@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #333;
+    color: #fff;
+}
+.main-container{
+    background-color: #000000;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+.main-container h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    margin-left: 5%;
+}
+
+.main-container .navbar{
+    display: flex;
+    align-items: center;  
+    margin-right: 10%;
+       
+}
+.main-container .navbar ul a:hover{
+    color: rgb(223, 158, 38);
+}
+
+.main-container .navbar ul{
+    list-style: none ;
+    display: flex;
+    gap: 8%;
+   
+}
+.main-container .navbar li a {
+    text-decoration:none ;
+    color: #fff;
+}
+.navbar .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.navbar .dropdown .btn1{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    width: 70px;
+}
+.navbar .dropdown .btn1:hover{
+    color: rgb(223, 158, 38);
+}
+
+.navbar .dropdown .dropdown-contents{
+    display: none;
+    position: absolute;
+    width: 190%;
+    background-color: #333;
+
+}
+.navbar .dropdown .dropdown-contents a{
+    text-decoration: none;
+    padding: 5%;
+    display: block;
+    color: #fff;
+}
+.navbar .dropdown:hover .dropdown-contents{
+    display: block;
+}
+
+
+/* about us start  */
+.about-us{
+    padding: 1%;
+    width: 100vw;
+}
+.about-us .about-us-content .our-team{
+    display: flex;
+    gap: 1%;
+    margin: 20px 0;
+}
+.about-us .about-us-content .our-team .team-post1, .team-post2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+.about-us .about-us-content .our-team img{
+    height: 300px;
+    border-radius: 60%;
+}
+.about-us .about-us-content .our-team .lvl1{
+    font-weight: bold;
+    padding: 1.5%;
+}
+/* about us end  */
+/* question start */
+h2{
+    margin: 10px 30px;
+    font-size: 30px;
+    
+}
+.item{
+    margin: 10px 30px;
+    border: 2px solid yellow;
+    padding: 10px;
+}
+/* question end */
